@@ -2,8 +2,7 @@ package com.lambferret.design_pattern.partterns.strategy;
 
 public class WaterDuck extends Duck{
     public WaterDuck() {
-//        quackBehavior = new Quack();
-
+        this.quackBehavior = new Quack();
     }
 
     public void display() {
