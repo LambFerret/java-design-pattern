@@ -1,5 +1,8 @@
 package com.lambferret.design_pattern.partterns.strategy;
 
+import lombok.Setter;
+
+@Setter
 public abstract class Duck {
     QuackBehavior quackBehavior;
     FlyBehavior flyBehavior;
@@ -19,4 +22,6 @@ public abstract class Duck {
     public void swim() {
         System.out.println("swimming for everyone");
     }
+
+
 }
